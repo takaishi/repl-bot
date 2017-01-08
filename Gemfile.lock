@@ -1,6 +1,13 @@
 GIT
+  remote: https://github.com/takaishi/ruboty-http_health_check
+  revision: 171f5fd6ddebd301f2e12d4deb74624fadfda3f1
+  specs:
+    ruboty-http_health_check (0.1.0)
+      webrick
+
+GIT
   remote: https://github.com/takaishi/ruboty-random_hatenabookmark.git
-  revision: 3294d2c149260a18c0f6639e70e1da0fb101db01
+  revision: 7d3894a639d57b1d24f4b295dd8b6798ce749bc9
   specs:
     ruboty-random_hatenabookmark (0.1.0)
       nokogiri
@@ -54,6 +61,7 @@ GEM
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    webrick (1.3.1)
     websocket (1.2.3)
     websocket-client-simple (0.3.0)
       event_emitter
@@ -68,6 +76,7 @@ PLATFORMS
 DEPENDENCIES
   nokogiri
   ruboty
+  ruboty-http_health_check!
   ruboty-random_hatenabookmark!
   ruboty-slack_rtm
   slack-api
